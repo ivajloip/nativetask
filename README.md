@@ -72,7 +72,9 @@ Here is the steps to enable NativeTask in transparent collector mode:
   ```
 
 4. build NativeTask with Hadoop
-  
+
+  *Note:* The build scripts has only been tested on CentOS 6 64Bit platform. Other platforms has not been verified.
+
   ```bash
   cd nativetask
   cp -r . ${HADOOP_ROOTDIR}/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask
