@@ -63,7 +63,11 @@ Here is the steps to enable NativeTask in transparent collector mode:
   ```
 
 3. patch Hadoop (${HADOOP_ROOTDIR} points to the root directory of Hadoop codebase)
-  
+
+  **Note:** Please make sure you checked out the hadoop 2.2.0 version(for example: git checkout release-2.2.0). Other version should probably works(after changing the pom.xml to make it point to new version), but has not been tested.  
+
+  **Note:** Please make sure you are using bash shell to run these commands.
+
   ```bash
   cd nativetask
   cp patch/hadoop-2.patch ${HADOOP_ROOTDIR}/
@@ -73,7 +77,10 @@ Here is the steps to enable NativeTask in transparent collector mode:
 
 4. build NativeTask with Hadoop
 
-  *Note:* The build scripts has only been tested on CentOS 6 64Bit platform. Other platforms has not been verified.
+  **Note:** The build scripts has only been tested on CentOS 6 64Bit platform. Other platforms has not been verified.
+  
+  **Note:** Prior building, please follow https://github.com/apache/hadoop-common/blob/trunk/BUILDING.txt to install dependancies.
+  
 
   ```bash
   cd nativetask
