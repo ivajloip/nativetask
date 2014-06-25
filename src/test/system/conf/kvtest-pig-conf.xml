@@ -51,12 +51,12 @@ org.apache.pig.impl.io.NullableTuple;
 
 <property>
 <name>pig.version</name>
-<value>0.12.1-Intel</value>
+<value>0.12.0</value>
 </property>
 
 <property>
 <name>native.pig.version.expected</name>
-<value>0.12.1-Intel</value>
+<value>0.12.0</value>
 </property>
 
 <property>
