@@ -1,3 +1,7 @@
+**Update**
+
+The nativetask is merged to hadoop trunk(3.0). For now, "**The Transparent Collector Mode**" is included, the "**Native Runtime Mode**" is not included. 
+
 #What is NativeTask?
 NativeTask is a **performance oriented** native engine for Hadoop MapReduce.
 
